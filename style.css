@@ -1,0 +1,71 @@
+
+.border{
+    color: black;
+
+    width: 500px;
+    border: 15px solid white;
+    padding: 40px;
+    height: 400px;
+    border-radius: 40px;
+    height: 500px;
+    margin-left: 350px;
+
+
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 100%;
+    height: 100%;   
+}
+section{
+    background-image: url("background.jpeg");
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+
+
+}
+div{
+    background-color: white;
+    width: 300px;
+    
+}
+
+input[type="email"],
+input[type="url"],
+input[type="name"] {
+    border-color: lightgrey;
+    width: 100%;
+    padding: 12px;
+    border-radius: 80px;
+
+}
+input[type="email"]:hover,
+input[type="url"]:hover,
+input[type="name"]:hover,
+input[type="text"]:hover{
+    border-color: blue;
+}
+input[type="text"]{
+    height: 80px;
+    border-color: lightgrey;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;   
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    width:105%;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover{
+    background-color: lightblue;
+}
